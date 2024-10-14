@@ -35,6 +35,7 @@ export const ButtonCart = styled.button`
   border: none;
   padding: 0.5rem;
   border-radius: 6px;
+  
 `
 
 export const NavHeader = styled.nav`

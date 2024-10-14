@@ -11,6 +11,9 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
      
   }
+  a:not([disabled]), button:not([disabled]){
+    cursor: pointer;
+  }
   `
 
 
