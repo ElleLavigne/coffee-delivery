@@ -1,6 +1,15 @@
 import { ShoppingCart, Package, Timer, Coffee } from "phosphor-react"
-import { BaseIcon, Content, Img, Item, ItemsContainer, TitleContainer, Container } from "./styles"
-import { defaultTheme } from "../../styles/themes/default"
+import {
+  BaseIcon,
+  Content,
+  Img,
+  Item,
+  ItemsContainer,
+  TitleContainer,
+  Container,
+} from "./styles"
+import { defaultTheme } from "../../../styles/themes/default"
+
 
 
 interface Item {
@@ -68,6 +77,8 @@ export function Hero() {
         </ItemsContainer>
       </Content>
       <Img src="hero-img.png" alt="" />
+      
     </Container>
   )
+
 }

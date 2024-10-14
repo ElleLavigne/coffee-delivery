@@ -13,7 +13,6 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   gap: 4.125rem;
- 
 `
 export const TitleContainer = styled.div`
   max-width: 36.75rem;
@@ -35,12 +34,11 @@ export const TitleContainer = styled.div`
 `
 export const Img = styled.img`
   width: 476px;
-  
 `
 export const ItemsContainer = styled.div`
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
 `
 
 export const BaseIcon = styled.div`
@@ -51,7 +49,6 @@ export const BaseIcon = styled.div`
   height: 2rem;
   border-radius: 9999px;
   color: ${(props) => props.theme["white-100"]};
-  
 `
 export const Item = styled.div`
   display: flex;
